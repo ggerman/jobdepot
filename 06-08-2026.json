@@ -1,132 +1,177 @@
-[
-  {
-    "id": 1,
-    "title": "Senior Ruby Developer",
-    "company": "Northstar Labs",
-    "logo_url": null,
-    "remote": true,
-    "employment_type": "Full-time",
-    "experience_level": "Senior",
-    "tech_tags": ["Ruby", "Rails", "PostgreSQL", "Redis"],
-    "published_at": "2026-06-01T09:00:00Z",
-    "expires_at": "2026-07-01T23:59:59Z",
-    "apply_url": "https://jobs.example.com/1"
-  },
-  {
-    "id": 2,
-    "title": "Backend Engineer",
-    "company": "BluePeak Systems",
-    "logo_url": null,
-    "remote": true,
-    "employment_type": "Contract",
-    "experience_level": "Mid",
-    "tech_tags": ["Node.js", "TypeScript", "Docker"],
-    "published_at": "2026-06-02T09:00:00Z",
-    "expires_at": "2026-07-02T23:59:59Z",
-    "apply_url": "https://jobs.example.com/2"
-  },
-  {
-    "id": 3,
-    "title": "React Native Developer",
-    "company": "Silver Birch Tech",
-    "logo_url": null,
-    "remote": false,
-    "employment_type": "Full-time",
-    "experience_level": "Senior",
-    "tech_tags": ["React Native", "TypeScript", "Redux"],
-    "published_at": "2026-06-03T09:00:00Z",
-    "expires_at": "2026-07-03T23:59:59Z",
-    "apply_url": "https://jobs.example.com/3"
-  },
-  {
-    "id": 4,
-    "title": "Frontend Engineer",
-    "company": "Crimson Forge",
-    "logo_url": null,
-    "remote": true,
-    "employment_type": "Full-time",
-    "experience_level": "Junior",
-    "tech_tags": ["React", "Next.js", "Tailwind"],
-    "published_at": "2026-06-04T09:00:00Z",
-    "expires_at": "2026-07-04T23:59:59Z",
-    "apply_url": "https://jobs.example.com/4"
-  },
-  {
-    "id": 5,
-    "title": "DevOps Engineer",
-    "company": "Oakridge Digital",
-    "logo_url": null,
-    "remote": true,
-    "employment_type": "Full-time",
-    "experience_level": "Senior",
-    "tech_tags": ["AWS", "Docker", "Kubernetes", "Terraform"],
-    "published_at": "2026-06-05T09:00:00Z",
-    "expires_at": "2026-07-05T23:59:59Z",
-    "apply_url": "https://jobs.example.com/5"
-  },
-  {
-    "id": 6,
-    "title": "Python Engineer",
-    "company": "Pioneer Logic",
-    "logo_url": null,
-    "remote": true,
-    "employment_type": "Part-time",
-    "experience_level": "Mid",
-    "tech_tags": ["Python", "FastAPI", "PostgreSQL"],
-    "published_at": "2026-06-06T09:00:00Z",
-    "expires_at": "2026-07-06T23:59:59Z",
-    "apply_url": "https://jobs.example.com/6"
-  },
-  {
-    "id": 7,
-    "title": "Go Backend Engineer",
-    "company": "Summit Harbor",
-    "logo_url": null,
-    "remote": true,
-    "employment_type": "Full-time",
-    "experience_level": "Senior",
-    "tech_tags": ["Go", "Docker", "Kafka"],
-    "published_at": "2026-06-07T09:00:00Z",
-    "expires_at": "2026-07-07T23:59:59Z",
-    "apply_url": "https://jobs.example.com/7"
-  },
-  {
-    "id": 8,
-    "title": "QA Automation Engineer",
-    "company": "BrightPath Software",
-    "logo_url": null,
-    "remote": false,
-    "employment_type": "Full-time",
-    "experience_level": "Mid",
-    "tech_tags": ["Selenium", "Playwright", "Java"],
-    "published_at": "2026-06-08T09:00:00Z",
-    "expires_at": "2026-07-08T23:59:59Z",
-    "apply_url": "https://jobs.example.com/8"
-  },
-  {
-    "id": 9,
-    "title": "Data Engineer",
-    "company": "Copperfield Analytics",
-    "logo_url": null,
-    "remote": true,
-    "employment_type": "Full-time",
-    "experience_level": "Senior",
-    "tech_tags": ["Python", "Spark", "AWS"],
-    "published_at": "2026-06-09T09:00:00Z",
-    "expires_at": "2026-07-09T23:59:59Z",
-    "apply_url": "https://jobs.example.com/9"
-  },
-  {
-    "id": 10,
-    "title": "Full Stack Engineer",
-    "company": "Evergreen Apps",
-    "logo_url": null,
-    "remote": true,
-    "employment_type": "Full-time",
-    "experience_level": "Senior",
-    "tech_tags": ["Rails", "React", "PostgreSQL"],
-    "published_at": "2026-06-10T09:00:00Z",
-    "expires_at": "2026-07-10T23:59:59Z",
-    "apply_url": "https://jobs.example.com/10"
-  }
-]
+{
+  "page": 1,
+  "per_page": 50,
+  "total": 50,
+  "has_next_page": false,
+  "jobs": [
+    {
+      "id": 1,
+      "slug": "senior-ruby-developer-northstar-labs",
+      "title": "Senior Ruby Developer",
+      "company": {
+        "name": "Northstar Labs",
+        "logo_url": null,
+        "website": "https://northstarlabs.example"
+      },
+      "workplace_type": "remote",
+      "employment_type": "full-time",
+      "experience_level": "senior",
+      "location": { "city": null, "country": "Worldwide" },
+      "category": "backend",
+      "tech_tags": [
+        { "name": "Ruby", "slug": "ruby", "icon": "ruby" },
+        { "name": "Rails", "slug": "rails", "icon": "rails" },
+        { "name": "PostgreSQL", "slug": "postgresql", "icon": "postgresql" }
+      ],
+      "description": "Build scalable backend services.",
+      "salary": { "min": 5000, "max": 8000, "currency": "USD" },
+      "featured": true,
+      "published_at": "2026-06-01T09:00:00Z",
+      "expires_at": "2026-07-01T23:59:59Z",
+      "apply_url": "https://jobs.example.com/1"
+    },
+    {
+      "id": 2,
+      "slug": "react-native-engineer-bluepeak-systems",
+      "title": "React Native Engineer",
+      "company": {
+        "name": "BluePeak Systems",
+        "logo_url": null,
+        "website": "https://bluepeak.example"
+      },
+      "workplace_type": "hybrid",
+      "employment_type": "full-time",
+      "experience_level": "mid",
+      "location": { "city": "Madrid", "country": "Spain" },
+      "category": "mobile",
+      "tech_tags": [
+        { "name": "React Native", "slug": "react-native", "icon": "react-native" },
+        { "name": "TypeScript", "slug": "typescript", "icon": "typescript" }
+      ],
+      "description": "Build Android and iOS applications.",
+      "salary": { "min": 4000, "max": 6500, "currency": "EUR" },
+      "featured": false,
+      "published_at": "2026-06-02T09:00:00Z",
+      "expires_at": "2026-07-02T23:59:59Z",
+      "apply_url": "https://jobs.example.com/2"
+    },
+    {
+      "id": 3,
+      "slug": "devops-engineer-oakridge-digital",
+      "title": "DevOps Engineer",
+      "company": {
+        "name": "Oakridge Digital",
+        "logo_url": null,
+        "website": "https://oakridge.example"
+      },
+      "workplace_type": "remote",
+      "employment_type": "contract",
+      "experience_level": "senior",
+      "location": { "city": null, "country": "Worldwide" },
+      "category": "devops",
+      "tech_tags": [
+        { "name": "AWS", "slug": "aws", "icon": "aws" },
+        { "name": "Docker", "slug": "docker", "icon": "docker" },
+        { "name": "Kubernetes", "slug": "kubernetes", "icon": "kubernetes" }
+      ],
+      "description": "Manage infrastructure and CI/CD.",
+      "salary": { "min": 6000, "max": 9000, "currency": "USD" },
+      "featured": true,
+      "published_at": "2026-06-03T09:00:00Z",
+      "expires_at": "2026-07-03T23:59:59Z",
+      "apply_url": "https://jobs.example.com/3"
+    },
+    {
+      "id": 4,
+      "slug": "frontend-engineer-crimson-forge",
+      "title": "Frontend Engineer",
+      "company": {
+        "name": "Crimson Forge",
+        "logo_url": null,
+        "website": "https://crimsonforge.example"
+      },
+      "workplace_type": "remote",
+      "employment_type": "full-time",
+      "experience_level": "junior",
+      "location": { "city": "Berlin", "country": "Germany" },
+      "category": "frontend",
+      "tech_tags": [
+        { "name": "React", "slug": "react", "icon": "react" },
+        { "name": "Next.js", "slug": "nextjs", "icon": "nextjs" }
+      ],
+      "description": "Create modern web interfaces.",
+      "salary": { "min": 3000, "max": 5000, "currency": "EUR" },
+      "featured": false,
+      "published_at": "2026-06-04T09:00:00Z",
+      "expires_at": "2026-07-04T23:59:59Z",
+      "apply_url": "https://jobs.example.com/4"
+    },
+    {
+      "id": 5,
+      "slug": "python-engineer-pioneer-logic",
+      "title": "Python Engineer",
+      "company": {
+        "name": "Pioneer Logic",
+        "logo_url": null,
+        "website": "https://pioneerlogic.example"
+      },
+      "workplace_type": "remote",
+      "employment_type": "part-time",
+      "experience_level": "mid",
+      "location": { "city": null, "country": "Worldwide" },
+      "category": "backend",
+      "tech_tags": [
+        { "name": "Python", "slug": "python", "icon": "python" },
+        { "name": "FastAPI", "slug": "fastapi", "icon": "fastapi" }
+      ],
+      "description": "Develop APIs and backend services.",
+      "salary": { "min": 3500, "max": 6000, "currency": "USD" },
+      "featured": false,
+      "published_at": "2026-06-05T09:00:00Z",
+      "expires_at": "2026-07-05T23:59:59Z",
+      "apply_url": "https://jobs.example.com/5"
+    },
+    {
+      "id": 6,
+      "slug": "full-stack-engineer-evergreen-apps",
+      "title": "Full Stack Engineer",
+      "company": { "name": "Evergreen Apps", "logo_url": null, "website": "https://evergreen.example" },
+      "workplace_type": "hybrid",
+      "employment_type": "full-time",
+      "experience_level": "senior",
+      "location": { "city": "Toronto", "country": "Canada" },
+      "category": "fullstack",
+      "tech_tags": [
+        { "name": "Rails", "slug": "rails", "icon": "rails" },
+        { "name": "React", "slug": "react", "icon": "react" }
+      ],
+      "description": "Work across backend and frontend.",
+      "salary": { "min": 5500, "max": 8500, "currency": "USD" },
+      "featured": true,
+      "published_at": "2026-06-06T09:00:00Z",
+      "expires_at": "2026-07-06T23:59:59Z",
+      "apply_url": "https://jobs.example.com/6"
+    },
+    {
+      "id": 7,
+      "slug": "go-backend-engineer-summit-harbor",
+      "title": "Go Backend Engineer",
+      "company": { "name": "Summit Harbor", "logo_url": null, "website": "https://summitharbor.example" },
+      "workplace_type": "remote",
+      "employment_type": "full-time",
+      "experience_level": "senior",
+      "location": { "city": null, "country": "Worldwide" },
+      "category": "backend",
+      "tech_tags": [
+        { "name": "Go", "slug": "go", "icon": "go" },
+        { "name": "Kafka", "slug": "kafka", "icon": "kafka" }
+      ],
+      "description": "High-performance backend services.",
+      "salary": { "min": 6500, "max": 9500, "currency": "USD" },
+      "featured": false,
+      "published_at": "2026-06-07T09:00:00Z",
+      "expires_at": "2026-07-07T23:59:59Z",
+      "apply_url": "https://jobs.example.com/7"
+    }
+   ]
+}
